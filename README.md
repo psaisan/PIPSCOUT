@@ -1,6 +1,6 @@
 ![PIPSCOPE Logo](images/pipscout.PNG)
 
-**PIPSCOUT** ( **PIP**seeker-based **S**ingle-**C**ell **O**utput & **UMAP** **T**yping ) is a Python-based pipeline that builds on [PIPseeker](https://pipseeker.readthedocs.io) to analyze single-cell RNA-seq data. It performs dimensionality reduction (UMAP), identifies cell types, and exports an annotated expression matrix. This tool is ideal for fast exploration and visualization of single-cell datasets using PIPseeker outputs.
+**PIPSCOUT** ( **PIP**seeker-based **S**ingle-**C**ell **O**utput & **UMAP** **T**yping ) is a Python-based pipeline (see the notebooks section) that builds on [PIPseeker](https://pipseeker.readthedocs.io) to analyze single-cell RNA-seq data. It performs dimensionality reduction (UMAP), identifies cell types, and exports an annotated expression matrix. This tool is ideal for fast exploration and visualization of single-cell datasets using PIPseeker outputs.
 
 ## 📦 Requirements
 
