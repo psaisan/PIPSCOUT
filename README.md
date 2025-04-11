@@ -1,7 +1,10 @@
-# 🔭 PIPSCOUT  
-*PIPseeker-based Single-Cell Output & UMAP Typing*
+![PIPSCOPE Logo](images/pipscout.PNG)
 
-**PIPSCOUT** is a Python-based pipeline that builds on [PIPseeker](https://pipseeker.readthedocs.io) to analyze single-cell RNA-seq data. It performs dimensionality reduction (UMAP), identifies cell types, and exports an annotated expression matrix. This tool is ideal for fast exploration and visualization of single-cell datasets using PIPseeker outputs.
+
+Like a data scout, it helps you explore and classify single-cell data efficiently.
+
+
+## PIPSCOUT** ( **PIP**seeker-based **S**ingle-**C**ell **O**utput & **UMAP** **T**yping ) is a Python-based pipeline that builds on [PIPseeker](https://pipseeker.readthedocs.io) to analyze single-cell RNA-seq data. It performs dimensionality reduction (UMAP), identifies cell types, and exports an annotated expression matrix. This tool is ideal for fast exploration and visualization of single-cell datasets using PIPseeker outputs.
 
 ## 📦 Requirements
 
@@ -23,7 +26,7 @@ rerun = True                     # Set False if PIPseeker outputs already exist
 
 ## 🗂️ Pipeline Overview
 
-### 1. 🧪 Run PIPseeker and Decompress Outputs
+### 1.  🌌 Run PIPseeker and Decompress Outputs
 
 Runs PIPseeker to align and quantify the single-cell RNA-seq dataset and then decompresses the outputs needed for downstream analysis.
 
@@ -36,7 +39,7 @@ Output folder:
 
 ---
 
-### 2. 🧬 Parse Genes and Barcodes
+### 2.  🌌 Parse Genes and Barcodes
 
 - Parses `features.tsv` to extract gene names.
 - Parses `barcodes.tsv` to extract cell barcodes.
@@ -46,7 +49,7 @@ Used for mapping indices to names and building matrix headers.
 
 ---
 
-### 3. 🧱 Reconstruct the Expression Matrix
+### 3.  🌌 Reconstruct the Expression Matrix
 
 - Loads the `matrix.mtx` file (Matrix Market format) using `pandas.read_csv`.
 - Initializes a dense NumPy matrix `M` of shape `(num_genes, num_cells)`.
@@ -66,7 +69,7 @@ UMAP enables visualization and clustering of cells based on gene expression simi
 
 ---
 
-### 5. 🧭 Visualize Cell Types in 2D
+### 5.  🌌 Visualize Cell Types in 2D
 
 - Loads cluster assignments from `clusters.csv` (one cluster label per cell).
 - Loads cell-type labels from `graph_clusters.csv`, mapping cluster ID to known cell type.
@@ -77,7 +80,7 @@ Final plot: A UMAP scatterplot with labeled cell clusters.
 
 ---
 
-### 6. 📄 Export Annotated Gene Matrix
+### 6.  🌌 Export Annotated Gene Matrix
 
 - Combines barcodes with their corresponding cell types (e.g., `AACTT..._CD4_T_Cell`).
 - Writes a new CSV file: `sample2_gene_matrix.csv`
@@ -104,16 +107,8 @@ PIPSCOUT is ideal for:
 - Linking clusters to known cell types
 - Exporting labeled expression matrices for ML or statistical modeling
 
----
 
-## 🧠 About the Name
 
-**PIPSCOUT** = **PIP**seeker-based **S**ingle-**C**ell **O**utput & **UMAP** **T**yping  
-Like a data scout, it helps you explore and classify single-cell data efficiently.
 
----
 
-## 📞 Questions?
-
-Open an issue or reach out via this repository. Pull requests welcome!
 
