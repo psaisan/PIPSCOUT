@@ -1,7 +1,7 @@
-# 🔬 PIPSCOPE  
-*PIPseeker-based Single-Cell Omics Clustering & Projection Engine*
+# 🔭 PIPSCOUT  
+*PIPseeker-based Single-Cell Output & UMAP Typing*
 
-**PIPSCOPE** is a Python-based pipeline that builds on [PIPseeker](https://pipseeker.readthedocs.io) to analyze single-cell RNA-seq data. It performs dimensionality reduction (UMAP), identifies cell types, and exports an annotated expression matrix. This tool is ideal for fast exploration and visualization of single-cell datasets using PIPseeker outputs.
+**PIPSCOUT** is a Python-based pipeline that builds on [PIPseeker](https://pipseeker.readthedocs.io) to analyze single-cell RNA-seq data. It performs dimensionality reduction (UMAP), identifies cell types, and exports an annotated expression matrix. This tool is ideal for fast exploration and visualization of single-cell datasets using PIPseeker outputs.
 
 ## 📦 Requirements
 
@@ -99,7 +99,7 @@ Output file is formatted for downstream analysis and includes both gene names an
 
 ## 💡 Use Cases
 
-PIPSCOPE is ideal for:
+PIPSCOUT is ideal for:
 - Visualizing and interpreting single-cell RNA-seq data
 - Linking clusters to known cell types
 - Exporting labeled expression matrices for ML or statistical modeling
@@ -108,11 +108,12 @@ PIPSCOPE is ideal for:
 
 ## 🧠 About the Name
 
-**PIPSCOPE** = **PIP**seeker-based **S**ingle-**C**ell **O**mics **P**rojection & **E**ngine  
-Like a microscope, it helps you zoom into the cellular landscape of your data.
+**PIPSCOUT** = **PIP**seeker-based **S**ingle-**C**ell **O**utput & **UMAP** **T**yping  
+Like a data scout, it helps you explore and classify single-cell data efficiently.
 
 ---
 
 ## 📞 Questions?
 
 Open an issue or reach out via this repository. Pull requests welcome!
+
