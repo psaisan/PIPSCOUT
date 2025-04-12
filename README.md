@@ -1,5 +1,3 @@
-![PIPSCOPE Logo](images/pipscout.PNG)
-
 <a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/pip_data_analysis_pipeline.ipynb">
   <img src="images/pipscout.PNG" alt="PIPSCOUT Logo"/>
 </a>
