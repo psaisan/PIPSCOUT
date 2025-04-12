@@ -32,7 +32,7 @@ genome = 'human-pbmc-v4'         # Genome annotation file name (no .csv)
 rerun = True                     # Set False if PIPseeker outputs already exist
 ```
 
-## 🗂️ Pipeline Overview
+##  Pipeline Overview
 
 ### 1.  🌌 Run PIPseeker and Decompress Outputs
 
