@@ -114,9 +114,8 @@ PIPSCOUT is ideal for:
 - Visualizing and interpreting single-cell RNA-seq data
 - Linking clusters to known cell types
 - Exporting labeled expression matrices for ML or statistical modeling
-- 
 
-### BibTeX Entry
+### :open_book: BibTeX Entry
 
 ```bibtex
 @misc{saisan2025pipscout,
@@ -127,7 +126,3 @@ PIPSCOUT is ideal for:
   howpublished = {\url{https://github.com/psaisan/PIPSCOUT}},
   version      = {0.1},
 }
-
-
-
-
