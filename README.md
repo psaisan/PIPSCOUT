@@ -118,7 +118,7 @@ PIPSCOUT is ideal for:
 ### :open_book: BibTeX Entry
 
 ```bibtex
-@misc{saisan2025pipscout,
+@misc{talbert2025pipscout,
   author       = {Talbert, E. and Saisan, P.},
   title        = {PIPSCOUT: PIPseeker-based Single-Cell Output & UMAP Typing },
   year         = {2025},
