@@ -114,8 +114,19 @@ PIPSCOUT is ideal for:
 - Visualizing and interpreting single-cell RNA-seq data
 - Linking clusters to known cell types
 - Exporting labeled expression matrices for ML or statistical modeling
+- 
 
+### BibTeX Entry
 
+```bibtex
+@misc{saisan2025pipscout,
+  author       = {Saisan, P. and Talbert, E.},
+  title        = {PIPSCOUT: PIPseeker-based Single-Cell Output & UMAP Typing },
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/psaisan/PIPSCOUT}},
+  version      = {0.1},
+}
 
 
 
