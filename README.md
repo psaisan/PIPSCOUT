@@ -1,5 +1,9 @@
 ![PIPSCOPE Logo](images/pipscout.PNG)
 
+<a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/pip_data_analysis_pipeline.ipynb">
+  <img src="images/pipscout.PNG" alt="PIPSCOUT Logo"/>
+</a>
+
 **PIPSCOUT** ( **PIP**seeker-based **S**ingle-**C**ell **O**utput & **UMAP** **T**yping ) is a Python-based tool (notbeook) designed to extract and reformat outputs from the proprietary [PIPseeker](https://pipseeker.readthedocs.io) pipeline for flexible downstream analysis. While PIPseeker efficiently processes single-cell RNA-seq data from raw FASTQ files through alignment, quantification, clustering, and cell-type annotation, its outputs are difficult to access and modify.
 
 PIPSCOUT bridges this gap by:
