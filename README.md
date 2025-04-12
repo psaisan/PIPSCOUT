@@ -119,7 +119,7 @@ PIPSCOUT is ideal for:
 
 ```bibtex
 @misc{saisan2025pipscout,
-  author       = {Saisan, P. and Talbert, E.},
+  author       = {Talbert, E. and Saisan, P.},
   title        = {PIPSCOUT: PIPseeker-based Single-Cell Output & UMAP Typing },
   year         = {2025},
   publisher    = {GitHub},
