@@ -115,6 +115,19 @@ PIPSCOUT is ideal for:
 - Linking clusters to known cell types
 - Exporting labeled expression matrices for ML or statistical modeling
 
+## 🎻 Single-cell visualizations made trivial
+
+PIPSCOUT outputs annotated expression matrices. Gene-level visualizations like violin plots are effortless.
+
+The example notebook PIPSCOUT_violin.ipynb notebook shows how to:
+
+- Identify top-expressed genes in major cell types
+- Visualize their distributions across clusters
+
+<a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/PIPSCOUT_violin.ipynb">
+  <img src="images/violin.PNG" alt="PIPSCOUT Logo"/>
+</a>
+
 ### :open_book: BibTeX Entry
 
 ```bibtex
