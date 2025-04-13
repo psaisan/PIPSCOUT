@@ -12,9 +12,7 @@ PIPSCOUT bridges this gap by:
 
 - Enabling custom dimensionality reduction (e.g., UMAP), re-clustering, and visualization.
 
-PIPSCOUT is  is designed not as an endpoint, but as an entry point to more complex exploratory analytical workflows, including integration with our broader toolkit for regulatory sequence inference and transciptional program discovery.
-
-ideal for researchers who want to go beyond the defaults of vendor pipelines and explore single-cell datasets with full analytical flexibility.
+PIPSCOUT is designed not as an endpoint, but as an entry point to more complex analytical workflows, including integration with broader toolkits for regulatory sequence inference and transciptional program discovery.
 
 ## 📦 Requirements
 
