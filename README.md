@@ -119,7 +119,7 @@ PIPSCOUT is ideal for:
 
 ## 🎻 Single-cell Visualizations Made Simple
 
-PIPSCOUT outputs annotated expression matrices. Gene-level visualizations like violin plots are effortless.
+PIPSCOUT outputs annotated expression matrices, making gene-level visualizations like violin plots trivial.
 
 The example notebook PIPSCOUT_violin.ipynb notebook shows how to:
 
