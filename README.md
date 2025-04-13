@@ -111,11 +111,13 @@ Output file is formatted for downstream analysis and includes both gene names an
 ## 💡 Use Cases
 
 PIPSCOUT is ideal for:
-- Visualizing and interpreting single-cell RNA-seq data
+- Visualizing and interpreting single-cell RNA-seq data 
 - Linking clusters to known cell types
 - Exporting labeled expression matrices for ML or statistical modeling
 
-## 🎻 Single-cell visualizations made trivial
+---
+
+## 🎻 Single-cell Visualizations Made Simple
 
 PIPSCOUT outputs annotated expression matrices. Gene-level visualizations like violin plots are effortless.
 
@@ -125,7 +127,7 @@ The example notebook PIPSCOUT_violin.ipynb notebook shows how to:
 - Visualize their distributions across clusters
 
 <a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/PIPSCOUT_violin.ipynb">
-  <img src="images/violin.PNG" alt="PIPSCOUT Logo"/>
+  <img src="images/violin.PNG" alt="PIPSCOUT Logo" width="420"/>
 </a>
 
 ### :open_book: BibTeX Entry
