@@ -126,9 +126,22 @@ The example notebook PIPSCOUT_violin.ipynb notebook shows how to:
 - Identify top-expressed genes in major cell types
 - Visualize their distributions across clusters
 
-<a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/PIPSCOUT_violin.ipynb">
-  <img src="images/violin.PNG" alt="PIPSCOUT Logo" width="420"/>
-</a>
+<table>
+  <tr>
+    <td>
+        <a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/PIPSCOUT_violin.ipynb">
+      <img src="images/violin.PNG" width="400"/></td>
+    <td>
+        <a href="https://github.com/psaisan/PIPSCOUT/blob/main/notebooks/PIPSCOUT_violin.ipynb">
+      <img src="images/PIPSCOUT_blob.PNG" width="400"/></td>
+  </tr>
+</table>
+ 
+
+
+
+
+
 
 ### :open_book: BibTeX Entry
 
